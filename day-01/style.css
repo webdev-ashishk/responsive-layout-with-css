@@ -1,0 +1,16 @@
+#Parent {
+  margin: auto;
+  /* width: 400px; * /*fixed width not make a div responsive. */
+  width: 80%; /* perpcentage width make div responce */
+  padding: 5px;
+  border: "10px solid red";
+  background-color: blue;
+}
+#child {
+  margin: auto;
+  background-color: purple;
+  padding: 5px;
+  /* width: 500px; */ /* this will lead to problems not make responsive layout*/
+  /* height: 200px; */
+  width: 50%;
+}
